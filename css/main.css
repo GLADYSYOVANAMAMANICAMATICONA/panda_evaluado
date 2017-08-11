@@ -1,0 +1,102 @@
+body{
+	margin: 0px;
+	background: #454822;
+	font-family: serif;
+}
+
+header{
+	border-left: 150px solid #B60606 ;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: #B60606;
+	font-family: Roboto;
+	overflow:hidden;
+}
+
+ul li{
+	display: inline-block;
+	float: left;
+}
+
+ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration:none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+	background-color: #FFE900;
+	color: #333;
+}
+
+section{
+	margin: 0 auto;
+	width: 85%;
+	padding-top:10px;
+
+}
+
+p{
+	text-align: justify;
+	color: white;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 180px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	z-index: 1,
+}
+
+.dropdown-content a:hover{
+	background-color: #FFE900;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+
+.cssdiv{
+	display: inline;
+	margin: 8px;
+}
+
+.rojo{
+	padding: 20px;
+}
+
+
+.drojo{
+	text-align: center;
+	background: #B60606;
+	display: inline-block;
+	margin: 1px;
+	width: 30%;
+	padding: 3px;
+	border-color: #B60606;
+	color: white;
+}
+
+.parrafo{
+	display: inline-block;
+	width: 45%;
+	margin: 10px;
+}
+
+.cssimagen{
+	border: 5px solid #BBBBB9;
+	filter: grayscale(100%);
+}
+
+#cssboton{
+	z-index: 1000;
+	position: absolute;
+}
