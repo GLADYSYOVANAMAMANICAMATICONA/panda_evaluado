@@ -6,6 +6,8 @@
 
 			var boton = document.createElement('button')
 			boton.setAttribute('id', 'cssboton')
+			boton.setAttribute('onclick', 'btnborrar(this)')
+
 
             var x = document.createTextNode("X");//es lo que me aparecera en el buton escrito Guardar
             boton.appendChild(x);
@@ -20,7 +22,7 @@
 		}
 
 		
-      cssboton.onclick = function () {
-      	
-      	contenedor_imagenes.removeChild(div);
-      }
+     function btnborrar(b) {
+     	b.parentNode.style.display = "none";
+
+       }
