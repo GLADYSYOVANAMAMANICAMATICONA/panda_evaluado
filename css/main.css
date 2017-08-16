@@ -27,7 +27,7 @@ ul li a{
 	color: white;
 	text-align: center;
 	padding: 26px;
-	text-decoration:none;
+
 }
 
 li a:hover, .dropdown:hover, .dropbtn:hover{
@@ -46,6 +46,7 @@ p{
 	text-align: justify;
 	color: white;
 }
+
 .dropdown-content{
 	display: none;
 	position: absolute;
@@ -89,6 +90,14 @@ p{
 	display: inline-block;
 	width: 45%;
 	margin: 10px;
+	float: left;
+}
+
+.parrafo-2{
+	display: inline-block;
+	width: 45%;
+	margin: 10px;
+	float: right;
 }
 
 .cssimagen{
